@@ -1,5 +1,5 @@
 import React from 'react';
-import { Anchor, Image } from '../../component';
+import { Anchor, Image } from 'component';
 import { Nav } from './NavbarStyle';
 function Navbar() {
 	const navbarList = ['Home', 'About', 'Contact Us', 'Blog'];

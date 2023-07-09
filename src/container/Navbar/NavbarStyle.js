@@ -1,12 +1,21 @@
 import styled from 'styled-components';
 
 export const Nav = styled.nav`
+	position: fixed;
+	z-index: 5;
+	width: 80%;
+	background: white;
 	display: flex;
 	justify-content: space-between;
 	padding: 1vw 8vw;
-	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+	height: 40px;
+	opacity: 0.88;
+	box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.15);
+	border-bottom-left-radius: 0.375rem;
+	border-bottom-right-radius: 0.375rem;
 	img {
-		width: 150px;
+		height: 40px;
+		width: 40px;
 		cursor: pointer;
 	}
 	li {

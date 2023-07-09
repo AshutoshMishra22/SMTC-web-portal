@@ -1,13 +1,14 @@
 import React from 'react';
 import Navbar from './Navbar';
 import Home from './Home';
+import { Header } from './indexStyle';
 
 function BaseComponent(params) {
 	return (
 		<>
-			<header>
+			<Header>
 				<Navbar />
-			</header>
+			</Header>
 			<main>
 				<Home />
 			</main>
